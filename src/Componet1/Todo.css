@@ -31,7 +31,8 @@ li{
     list-style: circle;
     font-size: 20px;
     font-weight: 900;
-    color: rgb(236, 236, 236);
+    padding-left: 8px;
+    color: rgb(0, 0, 0);
 }
 input{
     width: 80%;
@@ -39,6 +40,7 @@ input{
     background-color: rgb(255, 255, 255);
     border:1px solid rgb(0, 0, 0);
     border-radius: 4px;
+    padding-left: 8px;
     font-weight: 700;
     font-size: 16px;
 
@@ -84,10 +86,12 @@ h1{
 .connn{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    height: 40px;
 }
 @media only screen and (max-width:600px){
   .whole{
-      width: 100%;
+      width:100%;
     }
 .btn{
      color: rgb(40, 114, 179);
@@ -96,14 +100,17 @@ h1{
         width: 500px;
     }
     .connn{
-        width: 300px;
+        width: 280px;
         background-color: blanchedalmond;
         color: black;
+        margin: 2px;
+        border-radius: 5px;
     }
     .btn-1,.btn-2{
     padding: 8px 16px;
+    border-radius: 3px;
     }    
-    .head-2{
-        width: 100%;
-    }
+   .head1{
+    color: black;
+   }
 }
