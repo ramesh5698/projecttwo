@@ -6,6 +6,8 @@ import "./Todo.css"
 // import 'aos/dist/aos.css'
 import Aos from 'aos';
 import "aos/dist/aos.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPenToSquare, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Todo() {
@@ -55,8 +57,8 @@ export default function Todo() {
                     </li>
                 </ul>
                         <div className="btn">
-                        <button  onClick={() => update(i)} className='btn-2'>Update</button>
-                        <button onClick={() => updelete(da.id)} className='btn-2'>delete</button>
+                        <FontAwesomeIcon onClick={() => update(i)} className='btn-2' icon={faPenToSquare}/>
+                        <FontAwesomeIcon onClick={() => updelete(da.id)} className='btn-2' icon={faTrash}/>
                         </div>
                       
 
