@@ -91,13 +91,13 @@ h1{
 }
 @media only screen and (max-width:600px){
   .whole{
-      width:320px;
+      width:100%;
     }
 .btn{
      color: rgb(40, 114, 179);
     }
     .sub{
-        width: 490px;
+        width: 370px;
     }
     .connn{
         width: 280px;
