@@ -31,7 +31,7 @@ li{
     list-style: circle;
     font-size: 20px;
     font-weight: 900;
-    color: white;
+    color: rgb(236, 236, 236);
 }
 input{
     width: 80%;
@@ -84,4 +84,26 @@ h1{
 .connn{
     display: flex;
     justify-content:space-between;
+}
+@media only screen and (max-width:600px){
+  .whole{
+      width: 100%;
+    }
+.btn{
+     color: rgb(40, 114, 179);
+    }
+    .sub{
+        width: 500px;
+    }
+    .connn{
+        width: 300px;
+        background-color: blanchedalmond;
+        color: black;
+    }
+    .btn-1,.btn-2{
+    padding: 8px 16px;
+    }    
+    .head-2{
+        width: 100%;
+    }
 }
